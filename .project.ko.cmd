@@ -1,0 +1,1 @@
+cmd_/home/ubuntu/Documents/Project/CSSE332Project/project.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id=sha1  -T ./scripts/module-common.lds -o /home/ubuntu/Documents/Project/CSSE332Project/project.ko /home/ubuntu/Documents/Project/CSSE332Project/project.o /home/ubuntu/Documents/Project/CSSE332Project/project.mod.o;  true
